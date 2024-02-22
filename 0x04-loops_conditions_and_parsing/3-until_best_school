@@ -1,0 +1,10 @@
+#!/usr/bin/env bsh
+# Display "Best School" 10 times an until loop.
+
+count=0
+
+until [ $count -eq 10 ]
+do
+	echo "Best School"
+	(( count++ ))
+done
