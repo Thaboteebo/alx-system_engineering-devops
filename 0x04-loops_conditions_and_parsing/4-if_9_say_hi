@@ -7,6 +7,6 @@ if [ $count -eq 9 ]
 then
 echo "Hi"
 fi
-echo "Best Schoo"
+echo "Best School"
 ((count++))
 done
